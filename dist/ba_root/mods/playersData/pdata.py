@@ -35,6 +35,7 @@ class CacheData:  # pylint: disable=too-few-public-methods
     """Stores the cache data."""
 
     roles: dict = {}
+    deviceid: dict = {}
     data: dict = {}
     custom: dict = {}
     profiles: dict = {}
